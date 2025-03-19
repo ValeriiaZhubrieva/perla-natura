@@ -3388,6 +3388,12 @@ body::after {
   .about__products {
     grid-template-columns: 1fr
   }
+  .size-package {
+    margin: 0 -20px
+  }
+  .size-package:not(:last-child) {
+    margin-bottom: 45px
+  }
   .options-upgrade {
     gap: 12px
   }
@@ -3408,6 +3414,9 @@ body::after {
     flex-direction: column;
     gap: 0;
     text-align: right
+  }
+  .text__title {
+    font-size: 24px
   }
 }
 @media (max-width:419.98px) {
@@ -3433,6 +3442,9 @@ body::after {
     font-size: 18px
   }
   .form__label {
+    font-size: 18px
+  }
+  .form__input {
     font-size: 18px
   }
   .cart-item__body {
